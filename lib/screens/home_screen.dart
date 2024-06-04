@@ -18,9 +18,11 @@ class _HomeScreenState extends State<HomeScreen> {
       builder: (context, data, child) => Scaffold(
           appBar: AppBar(
             title: const Text("First App"),
+            backgroundColor: randomColor(),
           ),
           body: Column(
             children: [
+              const SizedBox(height: 30,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
