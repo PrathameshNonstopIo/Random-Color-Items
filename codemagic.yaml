@@ -3,3 +3,7 @@ workflows:
     publishing:
       slack:
         channel: '#codemagic_builds'
+        notify_on_build_start: true
+        notify:
+          success: true
+          failure: true
