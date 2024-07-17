@@ -1,0 +1,5 @@
+workflows:
+  firebase-workflow:
+    publishing:
+      slack:
+        channel: '#codemagic_builds'
