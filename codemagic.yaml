@@ -7,8 +7,6 @@ workflows:
     scripts:
       - name: Build apk
         script: flutter build apk --release
-      - name: Build ios
-        script: flutter build ios
     publishing:
       slack:
         channel: '#codemagic_builds'
